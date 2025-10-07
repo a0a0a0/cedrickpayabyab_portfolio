@@ -6,6 +6,12 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
+import whs from "@/public/whs.png";
+import purch from "@/public/purch.png";
+import payroll from "@/public/payroll.png";
+import iot from "@/public/iot.png";
+import key from "@/public/key.png";
+
 export const links = [
   {
     name: "Home",
@@ -74,21 +80,36 @@ export const projectsData = [
     description:
       "Designed and developed comprehensive HR Timekeeping and Finance Payroll System for O&G Leather Manufacturing Corporation. Streamlined employee time tracking and payroll processing.",
     tags: ["C#", "VB.NET", "MSSQL", "Windows Forms", "ASP.NET"],
-    imageUrl: corpcommentImg,
+    imageUrl: payroll,
   },
   {
     title: "Purchase & Inventory Management",
     description:
       "Built Purchase and Inventory System for sister company. Enhanced operational efficiency with real-time tracking and automated inventory management features.",
-    tags: ["C#", "PostgreSQL", "WPF", "RESTful APIs", "System Integration"],
-    imageUrl: rmtdevImg,
+    tags: ["C#", "WPF", "RESTful APIs", "System Integration"],
+    imageUrl: purch,
   },
   {
     title: "IoT & Embedded Systems",
     description:
       "Developed various IoT solutions and embedded systems projects during freelance work. Created microcontroller-based automation systems with web interfaces.",
     tags: ["Arduino", "C/C++", "PHP", "JavaScript", "Hardware Integration"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: iot,
+  },
+
+  {
+    title: "Warehouse Management System",
+    description:
+      "This Warehouse Management System (WMS) is designed to streamline inventory tracking, order processing, and stock control. It improves efficiency, reduces errors, and provides real-time data to support better warehouse operations.",
+      tags: ["C#", "ASP.Net","JQuery", "RESTful APIs", "System Integration"],
+    imageUrl: whs,
+  },
+  {
+    title: "Key Process Qualification System",
+    description:
+      "This Key Process Qualification (KPQ) System is developed to standardize, track, and manage critical process qualifications. It ensures compliance, enhances traceability, and supports consistent process validation across operations.",
+      tags: ["C#", "VB.NET", "MSSQL", "Windows Forms",  "RESTful APIs", "System Integration"],
+    imageUrl: key,
   },
 ] as const;
 

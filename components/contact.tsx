@@ -35,11 +35,11 @@ export default function Contact() {
         <a href="mailto:cedrick0795@gmail.com" className="underine">
           cedrick0795@gmail.com
         </a>
-        {" "}or call me at{" "}
+        {/* {" "}or call me at{" "}
         <a href="tel:+639067700331" className="underline">
           +63 906 770 0331
         </a>
-        {" "}or through this form.
+        {" "}or through this form. */}
       </p>
 
       <form
@@ -55,7 +55,7 @@ export default function Contact() {
           toast.success("Email sent successfully!");
         }}
       >
-        <input
+        {/* <input
           type="email"
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           placeholder="Your email"
@@ -69,8 +69,8 @@ export default function Contact() {
           required
           maxLength={500}
           name="message"
-        />
-        <SubmitBtn />
+        /> */}
+        {/* <SubmitBtn /> */}
       </form>
     </motion.section>
   );
